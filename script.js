@@ -1,18 +1,57 @@
 // Variable               Value
 // --------               -----
 //
-// date	                  Monday 2019-03-18
-// time	                  10:05:34 AM
-// astronautCount	        7
-// astronautStatus	      ready
-// averageAstronautMassKg	80.7
-// crewMassKg	            astronautCount * averageAstronautMassKg
-// fuelMassKg	            760,000
-// shuttleMassKg	        74842.31
-// totalMassKg	          crewMassKg + fuelMassKg + shuttleMassKg
-// fuelTempCelsius	      -225
-// fuelLevel	            100%
-// weatherStatus	        clear
+let date	                =  'Monday 2019-03-18'
+let time	         =         '10:05:34 AM'
+let astronautCount	      =  7
+let astronautStatus	    =  'ready'
+let averageAstronautMassKg =	80.7
+let crewMassKg	         =   astronautCount * averageAstronautMassKg
+let fuelMassKg	        =    760000
+let shuttleMassKg	  =      74842.31
+let totalMassKg	     =     crewMassKg + fuelMassKg + shuttleMassKg
+let fuelTempCelsius	   =   -225
+let fuelLevel	    =        '100%'
+let weatherStatus	  =      'clear'
+
+console.log(
+'\n'+ '--------------------' +
+'\n'+ '> LC04 - LAUNCH CHECKLIST' +
+'\n'+
+'\n'+ '--------------------' +
+'\n'+ 'Date:' + date +
+'\n'+ 'Time:' + time +
+'\n'+
+'\n'+ '--------------------' +
+'\n'+ '> ASTRONAUT INFO' +
+'\n'+ '--------------------' +
+'\n'+ 'count:' + astronautCount +
+'\n'+ 'status:' + astronautStatus +
+'\n'+
+'\n'+ '--------------------' +
+'\n'+ '> FUEL DATA' +
+'\n'+ '--------------------' +
+'\n'+ 'Fuel temp celsius:' + fuelTempCelsius +
+'\n'+ 'Fuel level:' + fuelLevel +
+'\n'+
+'\n'+ '--------------------' +
+'\n'+ '> MASS DATA' +
+'\n'+ '--------------------' +
+'\n'+ 'Crew mass:' + crewMassKg +
+'\n'+ 'Fuel mass:' + fuelMassKg +
+'\n'+ 'Shuttle mass:' + shuttleMassKg +
+'\n'+ 'Total mass:' + totalMassKg +
+'\n'+
+'\n'+ '--------------------' +
+'\n'+ '> FLIGHT PLAN' +
+'\n'+ '--------------------' +
+'\n'+ 'weather:' + weatherStatus +
+'\n'+ 
+'\n'+ '--------------------' +
+'\n'+ '> OVERALL STATUS' +
+'\n'+ '--------------------' +
+'\n'+ 'Clear for takeoff: YES'
+)
 
 // Sample Output
 //
